@@ -27,9 +27,9 @@ public class BE1132 {
                 if (i % 13 != 0)
                     total = total + i;
             }
-
-            System.out.println(total);
-            sc.close();
         }
+
+        System.out.println(total);
+        sc.close();
     }
 }

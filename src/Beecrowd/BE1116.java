@@ -14,18 +14,14 @@ public class BE1116 {
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
+        int X, Y;
 
-        for (int i = 0; i < N; i++) {
-            int X = sc.nextInt();
-            int Y = sc.nextInt();
-
-            if (X >= 0 ) {
-                double media = (double) X / Y;
-                System.out.println(media);
-            } else {
-                System.out.println("divisao impossivel");
+            for (int i = 0; i < N; i++) {
+                X = sc.nextInt();
+                Y = sc.nextInt();
+                if (Y == 0) System.out.println("divisao impossivel");
+                else System.out.println((double) X / Y);
             }
-        }
         sc.close();
     }
 }
