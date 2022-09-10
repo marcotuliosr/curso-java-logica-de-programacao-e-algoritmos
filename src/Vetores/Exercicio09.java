@@ -51,6 +51,7 @@ public class Exercicio09 {
 
         double totalLucro = totalVenda - totalCompra;
 
+
         System.out.printf("Valor total de compra: %.2f%n", totalCompra);
         System.out.printf("Valor total de venda: %.2f%n", totalVenda);
         System.out.printf("Lucro total: %.2f%n", totalLucro);
